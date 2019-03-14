@@ -1,0 +1,7 @@
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\bin\Debug\Grades.exe.config
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\bin\Debug\Grades.exe
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\bin\Debug\Grades.pdb
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\obj\Debug\Grades.csprojAssemblyReference.cache
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\obj\Debug\Grades.exe
+C:\Users\Kev\Desktop\CS\CSharp\Grades\Grades\obj\Debug\Grades.pdb
