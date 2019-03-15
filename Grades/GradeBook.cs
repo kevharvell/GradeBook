@@ -9,12 +9,37 @@ namespace Grades
     public class GradeBook
     {
         private List<float> grades;
-        public string Name;
-
+        private string _name;
+        public event NameChangedDelegate NameChanged;
         public GradeBook()
         {
+            _name = "Empty";
             grades = new List<float>();
         }
+        public string Name
+        {
+            get
+            {
+                return _name;
+            }
+            set
+            {
+                if (!String.IsNullOrEmpty(value))
+                {
+                    if(_name != value)
+                    {
+                        NameChangedEventArgs args = new NameChangedEventArgs();
+                        args.ExistingName = _name;
+                        args.NewName = value;
+
+                        NameChanged(this, args);
+                    }
+
+                    _name = value;
+                }
+            }
+        }
+        
         public void AddGrade(float grade)
         {
             grades.Add(grade);
